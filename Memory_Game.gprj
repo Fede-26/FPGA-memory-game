@@ -1,0 +1,17 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NR-9C" pn="GW1NR-LV9QN88PC6/I5">gw1nr9c-004</Device>
+    <FileList>
+        <File path="src/Binary_To_7Segment.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/Count_And_Toggle.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/Debounce_Filter.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/LFSR_22.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/Memory_Game_Top.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/State_Machine_Game.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/Memory_Game.cst" type="file.cst" enable="1"/>
+        <File path="src/Memory_Game.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>
